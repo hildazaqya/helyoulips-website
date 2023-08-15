@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap");
+
+
+#headeratas1 {
+  font-family: "Lobster Two", "cursive";
+}
+#headeratas2 {
+  font-family: "Quicksand", sans-serif;
+  background-color: #f7cac9;
+}
+#headeratas {
+  font-family: "Quicksand", sans-serif;
+  background-color: #f7cac9;
+}
+
+#container1 {
+  /* background-image: url(./image/lipp.png); */
+  background-size: cover;
+  opacity: 1;
+  height: 500px;
+  max-width: 1200px;
+  overflow: hidden;
+  position:relative;
+  margin-bottom: 10px;
+
+}
+
+#container2 {
+  padding-top: 20px;
+  font-family: "Quicksand", sans-serif;
+  background-color: white;
+  background-size: cover;
+  max-width: 1360px;
+}
+
+.wrapper{
+  width: 100%;
+  display: flex;
+  animation: slide 16s infinite;
+}
+
+@keyframes slide{
+  0%{
+      transform: translateX(0);
+  }
+  25%{
+      transform: translateX(0);
+  }
+  30%{
+      transform: translateX(-100%);
+  }
+  50%{
+      transform: translateX(-100%);
+  }
+  55%{
+    transform: translateX(-200%);
+  }
+  75%{
+    transform: translateX(-200%);
+  }
+  80%{
+    transform: translateX(-300%);
+  }
+  100%{
+    transform: translateX(-300%);
+  }
+}
+
+#arrivall {
+  font-family: "Roboto Mono", monospace;
+}
+
+#container3 {
+  font-family: "Quicksand", sans-serif;
+  background-color: #9ED5C5;
+  background-size: cover;
+  max-width: 1360px;
+}
+
+#value {
+  font-family: "Quicksand", sans-serif;
+}
+#container4 {
+  padding-top: 30px;
+  font-family: "Quicksand", sans-serif;
+  background-color: white;
+  background-size: cover;
+  max-width: 1360px;
+}
+
+.rounded-circle {
+  width: 150px;
+  margin: auto;
+}
+#hanasui4 {
+  width: 200px;
+  margin: auto;
+}
+
+#lux4 {
+  width: 200px;
+  margin: auto;
+}
+
+#container5 {
+  padding-top: 5px;
+  font-family: "Quicksand", sans-serif;
+  background-color: #f7cac9;
+  background-size: cover;
+  max-width: 1360px;
+}
+
+#footer1 {
+  font-family: "Lobster Two", "cursive";
+}
+
+#container7 {
+  font-family: "Quicksand", sans-serif;
+  background-color: #df7198;
+  background-size: cover;
+  max-width: 1360px;
+}
+
+#welcomee {
+  font-family: "Quicksand", sans-serif; 
+}
